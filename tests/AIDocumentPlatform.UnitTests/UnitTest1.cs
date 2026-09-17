@@ -15,6 +15,6 @@ public class HealthControllerTests
         var result = controller.Get();
 
         // Assert
-        Assert.IsType<BadRequestObjectResult>(result);
+        Assert.IsType<OkObjectResult>(result);
     }
 }
